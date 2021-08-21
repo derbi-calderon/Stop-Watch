@@ -1,0 +1,128 @@
+
+/* Mixin's */  
+@mixin transition {
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+@mixin corners ($radius) {
+-moz-border-radius: $radius;
+-webkit-border-radius: $radius;
+border-radius: $radius; 
+-khtml-border-radius: $radius; 
+}
+
+body {
+background: Snow;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+height:100%;
+}
+
+.wrapper {
+width: 800px;
+margin: 30px auto;
+color: darkslategray;
+text-align:center;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+#seconds, #minutes, #hours{
+  font-size:2em;
+}
+
+#tens{
+  font-size:1em
+}
+
+button{
+@include corners (5px);
+border: solid 1px white;
+text-decoration:none;
+cursor:pointer;
+font-size:1.2em;
+padding:18px 10px;
+width:180px;
+margin: 10px;
+outline: none;
+  
+}
+
+h1{
+	color: darkcyan;
+	font-family: Garamond ;
+}
+
+h5{
+	font-family: "Courier New" ;
+}
+
+#button-start{
+	
+	background-color:green;
+	border: solid 1px green;
+	color:white;
+
+	
+}
+
+#button-start:hover {
+	background-color:lightgray;
+	border: solid 1px white;
+	color:white;
+}
+
+#button-stop{
+	
+	background-color:crimson;
+	border: solid 1px green;
+	color:white;
+	
+}
+
+#button-stop:hover {
+	background-color:lightgray;
+	border: solid 1px white;
+	color:white;
+}
+
+
+#button-reset{
+	
+	background-color: DarkTurquoise;
+	border: solid 1px green;
+	color:white;
+	
+}
+
+#button-reset:hover {
+	background-color:lightgray;
+	border: solid 1px white;
+	color:white;
+}
+
+#button-lap{
+	
+	background-color: darkslategray;
+	border: solid 1px darkslategray;
+	color:white;
+	
+}
+
+#button-lap:hover {
+	background-color:darkgray;
+	border: solid 1px white;
+	color:white;
+}
+
+#dataTable{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
