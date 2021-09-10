@@ -2,14 +2,14 @@
 Click here [Stop Watch](https://lovelight-247.github.io/Stop-Watch/) To see it in action!
 <br>
 ## Screenshots
-Screenshot at open:
+Screenshot of open:
 ![img](/Screnshots/1.PNG)
 <br>
-Screenshot at running:
+Screenshot of it running:
 ![img](/Screnshots/2.PNG)
 <br>
-Screenshot at lap functionality:
+Screenshot of lap functionality:
 ![img](/Screnshots/3.PNG)
 <br>
-Screenshot at Stop & Reset:
+Screenshot of Stop & Reset:
 ![img](/Screnshots/4.PNG)
